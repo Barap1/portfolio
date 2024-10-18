@@ -19,20 +19,19 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a really passionate (caffeine dependent) programmer and
-              cybersecurity enthusiast. <br /> <br />
+              I am a really passionate (caffeine dependent) <b className="purple">programmer</b> and <b className="purple">cybersecurity enthusiast</b>. <br /> <br />
               I am fluent in{" "}
               <i>
-                <b>Python, C++, and Git</b>
+                <b className="purple">Python, C++, and Git</b>
               </i>
               <br /> <br />
               I am interested in{" "}
               <i>
-                <b>Penetration Testing</b> and <b>Machine Learning.</b>
+                <b className="purple">Penetration Testing</b> and <b className="purple">Machine Learning.</b>
               </i>
               <br /> <br />
               I love building new projects with{" "}
-              <b>OpenCV</b>, <i><b>Cybersecurity tools</b></i>, and <i><b>AI</b></i>.
+              <b className="purple">OpenCV</b>, <i><b className="purple">Cybersecurity tools</b></i>, and <i><b className="purple">AI</b></i>.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
