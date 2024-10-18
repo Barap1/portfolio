@@ -18,7 +18,7 @@ function AboutCard() {
             <br />
             I am currently interning at a Health IT company where I program vulnerability tests.
           </p>
-  
+        </blockquote>  
       </Card.Body>
     </Card>
   );
