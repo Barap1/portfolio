@@ -4,7 +4,7 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
+  AiOutlineTwitter, // Assuming you want AiOutlineTwitter
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -19,35 +19,20 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a really passionate (caffeine dependent) programmer and cybersecurity enthusiast
-              <br />
-              <br />I am fluent in 
+              I am a really passionate (caffeine dependent) programmer and
+              cybersecurity enthusiast. <br /> <br />
+              I am fluent in{" "}
               <i>
-                <b className="purple"> Python, C++, and Git </b>
+                <b>Python, C++, and Git</b>
               </i>
-              <br />
-              <br />
-              I am intrested in &nbsp;
+              <br /> <br />
+              I am interested in{" "}
               <i>
-                <b className="purple">Penetration Testing </b> and
-                {" "}
-                <b className="purple">
-                  Machine Learning.
-                </b>
+                <b>Penetration Testing</b> and <b>Machine Learning.</b>
               </i>
-              <br />
-              <br />
-              I love building new projects with <b className="purple"OpenCV</b> ,
-              <i>
-                <b className="purple">
-                  {" "}
-                  Cybersecurity tools
-                </b>
-              </i>
-              &nbsp;, and
-              <i>
-                <b className="purple"> AI</b>
-              </i>
+              <br /> <br />
+              I love building new projects with{" "}
+              <b>OpenCV</b>, <i><b>Cybersecurity tools</b></i>, and <i><b>AI</b></i>.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -68,7 +53,7 @@ function Home2() {
                   href="https://github.com/barap1"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
@@ -78,11 +63,12 @@ function Home2() {
                   href="https://www.linkedin.com/in/aarav-patel-b4305926a/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
               </li>
+              {/* Add links for Twitter and Instagram if desired */}
             </ul>
           </Col>
         </Row>
@@ -90,4 +76,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
