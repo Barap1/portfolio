@@ -11,12 +11,13 @@ function AboutCard() {
             Hi , I am <span className="purple">Aarav Patel </span>
             
             <br />
-            I am a student competing and reseaching computer science and cybersecurity.
-            <br />
-            I have placed and learned from competitions and CTFs at state and national levels.
+                 - I am a student competing and reseaching computer science and cybersecurity.
             <br />
             <br />
-            I am currently interning at a Health IT company where I program vulnerability tests.
+                - I have placed and learned from competitions and CTFs at state and national levels.
+            <br />
+            <br />
+                - I am currently interning at a Health IT company where I program vulnerability tests.
           </p>
         </blockquote>  
       </Card.Body>
