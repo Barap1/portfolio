@@ -4,7 +4,8 @@ import { CgCPlusPlus } from "react-icons/cg";
 import { SiFlask } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
-import { SiKalilinux } from "react-icons/si";
+import { DiLinux } from "react-icons/di";
+
 import { SiTensorflow } from "react-icons/si";
 
 import {
@@ -61,11 +62,11 @@ function Techstack() {
       </Col>
   
       <Col xs={4} md={2} className="tech-icons">
-        <SiKaliLinux />
+        <DiLinux />
       </Col> 
 
       <Col xs={4} md={2} className="tech-icons">
-        <SiTensorFlow />
+        <CgCPlusPlus />
       </Col>
     </Row>
   );
