@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import { SiFlask } from "react-icons/si";
-import { SiBurpsuite } from "react-icons/si";
+import { SiPostman } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { SiKalilinux } from "react-icons/si";
 import { SiTensorflow } from "react-icons/si";
@@ -53,7 +53,7 @@ function Techstack() {
       </Col> 
       
       <Col xs={4} md={2} className="tech-icons">
-        <SiBurpsuite />
+        <SiPostman />
       </Col> 
   
       <Col xs={4} md={2} className="tech-icons">
