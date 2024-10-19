@@ -41,7 +41,7 @@ function ProjectCards(props) {
 // Add the CSS styles directly within the component
 const styles = {
   projectCardView: {
-    box-shadow: "0 4px 5px 3px rgba(119, 53, 136, 0.459), 0 0 0 3px rgba(255, 255, 255, 0.1)",
+    boxShadow: "0 4px 5px 3px rgba(119, 53, 136, 0.459), 0 0 0 3px rgba(255, 255, 255, 0.1)",
     color: "white !important",
     backgroundColor: "transparent !important",
     opacity: "0.9 !important",
