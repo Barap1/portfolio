@@ -23,7 +23,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Shodan}
+              imgPath={shodan}
               isBlog={false}
               title="Shodan-Style Reconnaissance Engine for Vulnerability Analysis "
               description="Uses Masscan to rapidly scan target IPs for key information and reports data in a MongoDB database. Utilizes Asyncio to increase speed."
