@@ -5,8 +5,8 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import color from "../../Assets/Projects/color.png";
+import face from "../../Assets/Projects/face.png";
 import shodan from "../../Assets/Projects/shodan.png";
 
 function Projects() {
@@ -27,11 +27,33 @@ function Projects() {
               isBlog={false}
               title="Shodan-Style Reconnaissance Engine for Vulnerability Analysis "
               description="Uses Masscan to rapidly scan target IPs for key information and reports data in a MongoDB database. Utilizes Asyncio to increase speed."
+              ghLink="https://github.com/Barap1/Shodan-Style-Recon-Engine"
+              demoLink="/"
+            />
+          </Col>
+                
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={color}
+              isBlog={false}
+              title="OpenCV Color analysis"
+              description="Uses openCV to identify colors in real time."
               ghLink="https://github.com/Barap1"
               demoLink="/"
             />
           </Col>
-
+                
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={face}
+              isBlog={false}
+              title="OpenCV Face Tracking"
+              description="Uses openCV to track multiple faces and facial features in real time. "
+              ghLink="https://github.com/Barap1"
+              demoLink="/"
+            />
+          </Col>
+                
           
         </Row>
       </Container>
